@@ -1,6 +1,6 @@
 import 'package:apifund/screens/api_gpt_screen.dart';
 import 'package:apifund/screens/api_search.dart';
-import 'package:apifund/screens/file.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: CoinsPage(),
+      home: SearchPage(),
     );
   }
 }
